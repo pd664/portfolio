@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import '../../../static/comps/body/landing.css'
 import ProfilePic from '../../../pictures/2x.jpg'
-import { type } from '@testing-library/user-event/dist/type';
-import Typewriter from './Typewriter';
 
 function Landing() {
-
   useEffect(() => {
     let i = 0;
     let txt = `<Prateek Dixit />`
@@ -14,7 +11,6 @@ function Landing() {
     function typeWriter() {
       if (i < txt.length) {
         document.getElementById("color_yellow").innerText += txt.charAt(i);
-        // console.log("i", txt.charAt(i))
         i++;
 
         let a = setTimeout(typeWriter, speed);
