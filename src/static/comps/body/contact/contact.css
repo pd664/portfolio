@@ -1,0 +1,146 @@
+/* .contact {
+    background-color: rgb(61, 62, 66);
+    border-top: 5px solid rgb(255, 200, 107);
+    border-bottom: 5px solid rgb(255, 200, 107);
+    color: white;
+}
+
+.comntact_cont {
+    position: relative;
+}
+
+.contactMe {
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: rgb(52, 53, 58);
+    max-width: 350px;
+    margin: auto;
+}
+
+.contactMe p {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.contact_way {
+    /* background-color: rgb(52, 53, 58); */
+    /* max-width: 800px;
+    margin: auto;
+    height: 100px;
+} */
+
+/* .connect {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.glowingIcon_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_icon {
+    font-size: 2em;
+    background-color: #18191f;
+    border-radius: 29px;
+    padding: 11px 19px;
+}
+
+.contact_icon:hover {
+    color: rgb(255, 200, 107);
+    cursor: pointer;
+ }
+
+@media only screen and (max-width: 550px) {
+    .contactMe {
+        position: absolute;
+        top: -75px;
+        left: 50%;
+    }
+    .contactMe p {
+        font-size: 30px;
+        
+    }
+}
+*/  
+.form-control {
+    background-color: rgb(52,53,58)!important;
+    color: rgb(255, 200, 107) !important;
+    border: none;
+} 
+
+.form-control:focus {
+    border: 1px solid rgb(255, 200, 107);
+}
+
+.contact {
+    border-top: 5px solid rgb(255, 200, 107);
+    border-bottom: 5px solid rgb(255, 200, 107);
+    background-color: rgb(61,62,66)
+}
+
+.contact_way {
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.contact_icon {
+    color: white;
+    font-size: 30px;
+}
+
+.contact_left_title {
+    color: rgb(255, 200, 107);
+    font-size: 35px;
+}
+
+.twitter:hover {
+    color: rgb(0, 174, 255);;
+}
+
+.facebook:hover {
+    color: rgb(6, 84, 219);
+}
+
+.linkedin:hover {
+    color: rgb(0, 174, 255);
+}
+
+.github:hover {
+    color: black;
+}
+
+.contact_right {
+    width: 50%;
+}
+
+.submit_btn {
+    background: transparent;
+    border: 2px solid rgb(255, 200, 107);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease
+}
+
+.submit_btn:hover {
+    background-color: rgb(255, 200, 107);
+    /* color: black; */
+}
+
+@media only screen and (max-width: 900px){
+    .contact_inner {
+        flex-direction: column;
+        justify-content: center;
+        width: 100% !important;
+    }
+    .contact_right {
+        width: 100%;
+    }
+}

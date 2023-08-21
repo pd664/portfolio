@@ -1,0 +1,106 @@
+.landing {
+    padding-top: 50px;
+    color: white;
+}
+
+.landing_left {
+    margin-top: 5%;
+}
+
+.landing_title {
+    font-size: 50px;
+}
+
+#color_yellow, .sec-text {
+    color: rgb(255, 200, 107);
+    font-size: 70px;
+    animation: blink-caret .75s step-end infinite;
+}
+
+.profile_pic {
+    width: 800px;
+    filter: grayscale(100);
+    image-rendering: auto;
+    mix-blend-mode:lighten;
+}
+
+.h-animate {
+    font-size: 50px;
+}
+
+.landing_contact {
+    color: rgb(255, 200, 107);
+    background-color: transparent;
+    border: 5px solid rgb(255, 200, 107);
+    font-size: 2rem;
+    max-width: 30rem;
+    margin-top: 20%;
+    animation: drop-in 1200ms ease 500ms backwards;
+    transition: background-color 0.5s ease
+
+}
+
+.landing_contact:hover {
+    background-color: rgb(255,200,107);
+    color: rgb(52, 53, 58);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1550px) {
+    .profile_pic {
+        width: 700px
+    }
+}
+
+@media only screen and (max-width: 1450px) {
+    .profile_pic {
+        width: 600px
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .landing_cont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile_pic {
+        width: 500px
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .landing_cont { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #color_yellow, .sec-text {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .landing_title { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #color_yellow, .sec-text, .landing_title {
+        font-size: 30px;
+    }
+    .landing_left {
+        padding: 0 !important;
+    }
+}
+
+@keyframes drop-in {
+    from {
+     opacity: 0;
+     transform: translateY(-100px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
+   }

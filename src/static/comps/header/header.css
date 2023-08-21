@@ -1,0 +1,57 @@
+.header {
+    font-family: Open Sans;
+    color: white !important;
+    background-color: rgb(52,53,58);
+}
+
+nav .navbar-nav li a {
+    color: white !important;
+    font-size: 23px;
+}
+
+.navbar-brand {
+    color: rgb(255,200,107)!important;
+    font-size: 30px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: rgb(253, 253, 253);
+}
+
+.navbar-toggler {
+    width: 47px;
+    height: 34px;
+    background-color: #ffffff;
+}
+
+.navbar-toggler .line {
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: rgb(52, 53, 58);
+    margin-bottom: 5px;
+}
+
+nav .navbar-nav li a .new {
+    border: none;
+}
+
+nav .navbar-nav li a:hover{
+    border-bottom: 1px solid white;
+}
+
+.contact_me {
+    /* border-radius: 25px; */
+    border: none;
+    background-color: transparent;
+    color: rgb(255,200,107);
+    padding: 2px 5px;
+    font-size: 20px;
+    border: 2px solid rgb(255,200,107);
+}
+
+.contact_me:hover {
+    background-color: rgb(255,200,107);
+    color: rgb(52, 53, 58);
+    cursor: pointer;
+}
