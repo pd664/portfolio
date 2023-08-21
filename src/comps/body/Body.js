@@ -6,7 +6,6 @@ import Experience from './experience/Experience'
 import Testimonial from './testimonial/Testimonial'
 import Contact from './contact/Contact'
 import Footer from './footer/Footer'
-import AnchorLink from "react-anchor-link-smooth-scroll";
 
 function Body() {
   return (
