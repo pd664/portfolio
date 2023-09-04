@@ -131,7 +131,7 @@
 
 .submit_btn:hover {
     background-color: rgb(255, 200, 107);
-    /* color: black; */
+    color: black;
 }
 
 @media only screen and (max-width: 900px){
@@ -143,4 +143,12 @@
     .contact_right {
         width: 100%;
     }
+}
+
+input::placeholder {
+    color: rgb(255, 200, 107) !important;
+}
+
+textarea::placeholder { 
+    color: rgb(255, 200, 107) !important;
 }

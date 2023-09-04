@@ -1,6 +1,7 @@
 .landing {
     padding-top: 50px;
     color: white;
+    margin-top: 50px;
 }
 
 .landing_left {
@@ -17,11 +18,21 @@
     animation: blink-caret .75s step-end infinite;
 }
 
+.color_yellow_name 
+
+.first-text {
+    white-space: nowrap !important;
+}
+
 .profile_pic {
     width: 800px;
     filter: grayscale(100);
     image-rendering: auto;
     mix-blend-mode:lighten;
+}
+
+.Typewriter__wrapper, .Typewriter__cursor {
+    color: rgb(255, 200, 107);
 }
 
 .h-animate {
@@ -45,6 +56,8 @@
     color: rgb(52, 53, 58);
     cursor: pointer;
 }
+
+
 
 @media only screen and (max-width: 1550px) {
     .profile_pic {
@@ -78,6 +91,9 @@
     #color_yellow, .sec-text {
         font-size: 50px;
     }
+    /* .landing_right {
+        float: right !important;
+    } */
 }
 
 @media only screen and (max-width: 400px) {
@@ -92,6 +108,9 @@
     .landing_left {
         padding: 0 !important;
     }
+    /* .landing_right {
+        float: right !important;
+    } */
 }
 
 @keyframes drop-in {
